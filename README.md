@@ -1,2 +1,3 @@
 There are two types of creating a Binary Tree. || 
-Traversal order .
+Traversal order  ||
+Traversal order without using recursion.
