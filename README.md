@@ -37,5 +37,4 @@ It includes:
 
 ---
 
-## Directory Structure
 
