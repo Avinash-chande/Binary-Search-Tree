@@ -30,9 +30,9 @@ vector<int> preOrder(Node *root)
         st.pop();
         ans.push_back(curr->data); // st.top ele put into vector as answer
 
-        if (curr->right != nullptr)
+        if (curr->right )
             st.push(curr->right); // put into stack
-        if (curr->left != nullptr)
+        if (curr->left)
             st.push(curr->left);
     }
 
@@ -81,6 +81,7 @@ vector<int> postOrder(Node *root)
         curr = st1.top();
         st1.pop();
         st2.push(curr);
+
         // push into st1;
         if (curr->left)
             st1.push(curr->left);
@@ -97,6 +98,7 @@ vector<int> postOrder(Node *root)
     }
     return ans;
 }
+
 vector<int>levelOrder(Node*root){
     vector<int>ans;
     if(root==NULL)return ans;
@@ -116,8 +118,8 @@ vector<int>levelOrder(Node*root){
       if(curr->right)q.push(curr->right);
     }
     return ans;
+    
 }
-
 
 int main()
 {
@@ -151,7 +153,7 @@ int main()
     }
     cout << endl;
 
-     vector<int> levelorder = levelOrder(root);
+    vector<int> levelorder = levelOrder(root);
     cout << "levelorder :";
     for (int val : levelorder)
     {
@@ -160,5 +162,4 @@ int main()
     cout << endl;
 
     return 0;
-
 }
