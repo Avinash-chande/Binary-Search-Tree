@@ -10,7 +10,6 @@ https://github.com/Avinash-chande/Binary-Search-Tree
 
 ---
 
-
 ## Overview
 
 This project contains clean implementations of binary trees and binary search trees in C++. The goal is to serve both as:
