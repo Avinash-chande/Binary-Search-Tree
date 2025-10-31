@@ -18,7 +18,5 @@ It includes basic and advanced functionalities like **creation**, **insertion**,
   - Level Order (Breadth-First Traversal)
 - 🔄 Traversal without recursion using stacks and queues
 
----
 
-## 🧩 File Structure
 
