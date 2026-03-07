@@ -16,7 +16,7 @@ It includes basic and advanced functionalities like **creation**, **insertion**,
   - Preorder (Root → Left → Right)
   - Postorder (Left → Right → Root)
   - Level Order (Breadth-First Traversal).
-- 🔄 Traversal without recursion using stacks and queues.
+- 🔄 Traversal without recursion using stacks and queues
 
 
 
